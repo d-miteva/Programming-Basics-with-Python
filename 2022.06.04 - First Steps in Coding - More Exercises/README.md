@@ -1,4 +1,4 @@
-# First Steps in Coding - Lab
+# Programming-Basics-with-Python
 Programming Basics with Python SoftUni July 2022
 
 ########################################
@@ -170,7 +170,6 @@ Programming Basics with Python SoftUni July 2022
 - Ако се въведат градуси, различни от посочените в таблицата, да се отпечата "unknown".
 
  
-
 
 
 

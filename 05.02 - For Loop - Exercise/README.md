@@ -1,4 +1,4 @@
-# For Loop - Lab
+# For Loop - Exercise
 Programming Basics with Python SoftUni July 2022
 
 

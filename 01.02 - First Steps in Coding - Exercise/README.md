@@ -1,4 +1,4 @@
-# Programming-Basics-with-Python
+# First Steps in Coding - Exercise
 Programming Basics with Python SoftUni July 2022
 
 ########################################

@@ -1,4 +1,4 @@
-# Conditional Statements - More Exercises
+# Conditional Statements Advanced - Exercise
 Programming Basics with Python SoftUni July 2022
 
 ########################################

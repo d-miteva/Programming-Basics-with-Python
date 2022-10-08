@@ -30,5 +30,3 @@ else:
         print(f"{hour}:{minutes:02d} hours before the start")
     else:
         print(f"{diff_min} minutes before the start")
-
-

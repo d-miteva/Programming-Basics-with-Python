@@ -18,5 +18,3 @@ elif n_km < 100:
 
 else:
     print(f"{train:.2f}")
-
-

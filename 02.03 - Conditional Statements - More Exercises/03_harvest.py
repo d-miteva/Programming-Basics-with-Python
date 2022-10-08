@@ -1,4 +1,4 @@
-import math
+from math import ceil, floor
 
 x_area = int(input())
 y_grape = float(input())
@@ -11,8 +11,7 @@ more = abs(wine_lt - z_wine_lt)
 
 if wine_lt >= z_wine_lt:
     worker_wine = more / workers
-    print(f"Good harvest this year! Total wine: {math.floor(wine_lt)} liters.")
-    print(f"{math.ceil(more)} liters left -> {math.ceil(worker_wine)} liters per person.")
+    print(f"Good harvest this year! Total wine: {floor(wine_lt)} liters.")
+    print(f"{ceil(more)} liters left -> {ceil(worker_wine)} liters per person.")
 else:
-    print(f"It will be a tough winter! More {math.floor(more)} liters wine needed.")
-
+    print(f"It will be a tough winter! More {floor(more)} liters wine needed.")

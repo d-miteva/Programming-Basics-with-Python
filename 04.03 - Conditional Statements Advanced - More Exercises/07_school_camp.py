@@ -53,5 +53,3 @@ elif group_type == "mixed":
         sport = "Swimming"
 
 print(f"{sport} {price:.2f} lv.")
-
-

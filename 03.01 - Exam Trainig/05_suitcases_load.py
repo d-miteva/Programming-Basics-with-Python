@@ -14,7 +14,6 @@ while lugged != "End":
     lugged_capacity = lugged_capacity - lugged + added_lugged_space
 
     if lugged_capacity < 0:
-        # if lugged_capacity != 0:
         suitcases = suitcases - 1
         print("No more space!")
         break

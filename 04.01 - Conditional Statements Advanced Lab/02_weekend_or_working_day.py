@@ -1,6 +1,5 @@
 day_of_the_week = input()
 
-
 if day_of_the_week == "Monday" \
         or day_of_the_week == "Tuesday" \
         or day_of_the_week == "Wednesday" \

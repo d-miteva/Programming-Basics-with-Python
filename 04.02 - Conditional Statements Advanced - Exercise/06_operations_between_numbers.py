@@ -1,35 +1,33 @@
-numOne = int(input())
-numTwo = int(input())
+num_one = int(input())
+num_two = int(input())
 operator = input()
 
 result = 0
 
 if operator == "+":
-    result = numOne + numTwo
+    result = num_one + num_two
     if result % 2 == 0:
-        print(f"{numOne} + {numTwo} = {result} - even")
+        print(f"{num_one} + {num_two} = {result} - even")
     else:
-        print(f"{numOne} + {numTwo} = {result} - odd")
+        print(f"{num_one} + {num_two} = {result} - odd")
 elif operator == "-":
-    result = numOne - numTwo
+    result = num_one - num_two
     if result % 2 == 0:
-        print(f"{numOne} - {numTwo} = {result} - even")
+        print(f"{num_one} - {num_two} = {result} - even")
     else:
-        print(f"{numOne} - {numTwo} = {result} - odd")
+        print(f"{num_one} - {num_two} = {result} - odd")
 elif operator == "*":
-    result = numOne * numTwo
+    result = num_one * num_two
     if result % 2 == 0:
-        print(f"{numOne} * {numTwo} = {result} - even")
+        print(f"{num_one} * {num_two} = {result} - even")
     else:
-        print(f"{numOne} * {numTwo} = {result} - odd")
-elif operator == "/" and numTwo != 0:
-    result = numOne / numTwo
-    print(f"{numOne} / {numTwo} = {result:.2f}")
-elif operator == "%" and numTwo != 0:
-    result = numOne % numTwo
-    print(f"{numOne} % {numTwo} = {result}")
+        print(f"{num_one} * {num_two} = {result} - odd")
+elif operator == "/" and num_two != 0:
+    result = num_one / num_two
+    print(f"{num_one} / {num_two} = {result:.2f}")
+elif operator == "%" and num_two != 0:
+    result = num_one % num_two
+    print(f"{num_one} % {num_two} = {result}")
 
-if numTwo == 0 and (operator == "/" or operator == "%"):
-    print(f"Cannot divide {numOne} by zero")
-
-
+if num_two == 0 and (operator == "/" or operator == "%"):
+    print(f"Cannot divide {num_one} by zero")

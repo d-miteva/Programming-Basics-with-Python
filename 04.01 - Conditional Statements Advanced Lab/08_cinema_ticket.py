@@ -7,7 +7,7 @@ if day_of_the_week == "Monday" \
         or day_of_the_week == "Friday":
     ticket_price = 12
 elif day_of_the_week == "Wednesday" \
-           or day_of_the_week == "Thursday":
+        or day_of_the_week == "Thursday":
     ticket_price = 14
 elif day_of_the_week == "Saturday" \
         or day_of_the_week == "Sunday":

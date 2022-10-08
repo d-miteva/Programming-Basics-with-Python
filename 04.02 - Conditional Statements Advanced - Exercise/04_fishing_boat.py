@@ -27,4 +27,3 @@ if budget >= price_boat:
     print(f"Yes! You have {diff:.2f} leva left.")
 else:
     print(f"Not enough money! You need {diff:.2f} leva.")
-

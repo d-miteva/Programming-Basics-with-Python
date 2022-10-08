@@ -11,4 +11,3 @@ if fuel in ['Diesel', 'Gasoline', 'Gas']:
 
 else:
     print("Invalid fuel!")
-

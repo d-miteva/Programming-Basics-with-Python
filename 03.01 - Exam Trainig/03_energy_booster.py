@@ -29,9 +29,8 @@ elif size_set == "big":
 total_price = number_in_set * price * number_order_sets
 
 if 400 <= total_price <= 1000:
-    total_price = total_price * 0.85 # total_price *= 0.85
+    total_price = total_price * 0.85  # total_price *= 0.85
 elif total_price > 1000:
     total_price *= 0.5
 
 print(f"{total_price:.2f} lv.")
-

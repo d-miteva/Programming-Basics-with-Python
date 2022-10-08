@@ -8,7 +8,7 @@ total_price = 0
 count_lose_total = 0
 count_win_total = 0
 
-for days in range(1 , days_tournament + 1):
+for days in range(1, days_tournament + 1):
     name_game = input()
     result = input()
     while name_game != "Finish":
@@ -44,13 +44,3 @@ if count_win_total > count_lose_total:
     print(f"You won the tournament! Total raised money: {total_price:.2f}")
 else:
     print(f"You lost the tournament! Total raised money: {total_price:.2f}")
-
-
-
-
-
-
-
-
-
-

@@ -27,4 +27,3 @@ else:
     price = price * 0.9
 
 print(f"{price:.2f}")
-

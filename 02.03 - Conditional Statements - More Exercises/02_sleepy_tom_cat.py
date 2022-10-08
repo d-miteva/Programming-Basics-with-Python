@@ -14,5 +14,3 @@ if play_time > 30000:
 else:
     print("Tom sleeps well")
     print(f"{h} hours and {m} minutes less for play")
-
-

@@ -24,4 +24,3 @@ elif track == "road":
 total_sum = (juniors_price * juniors_count + seniors_count * seniors_price) * 0.95
 
 print(f"{total_sum:.2f}")
-

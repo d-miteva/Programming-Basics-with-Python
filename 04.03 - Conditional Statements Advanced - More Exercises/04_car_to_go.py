@@ -28,6 +28,3 @@ else:
 
 print(f"{class_car}")
 print(f"{type_car} - {price:.2f}")
-
-
-

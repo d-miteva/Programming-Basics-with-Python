@@ -40,4 +40,3 @@ elif city == "Varna":
 
 total_sum = price * quantity
 print(total_sum)
-

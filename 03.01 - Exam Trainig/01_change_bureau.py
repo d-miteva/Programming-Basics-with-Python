@@ -14,5 +14,4 @@ result = (total_bitcoin + total_china_yan) / eur_fixing
 fee = result * fee
 result -= fee
 
-
 print(f"{result:.2f}")

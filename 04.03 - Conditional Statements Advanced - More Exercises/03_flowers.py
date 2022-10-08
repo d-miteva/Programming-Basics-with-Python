@@ -36,6 +36,3 @@ if chrysanthemum + rose + tulip > 20:
     total = total * 0.8
 
 print(f"{(total + 2):.2f}")
-
-
-

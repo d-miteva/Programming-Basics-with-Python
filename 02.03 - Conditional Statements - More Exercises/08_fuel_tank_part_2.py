@@ -24,8 +24,4 @@ if 20 < quantity <= 25:
 elif 25 < quantity:
     total_price = total_price * 0.9
 
-
 print(f"{total_price:.2f} lv.")
-
-
-

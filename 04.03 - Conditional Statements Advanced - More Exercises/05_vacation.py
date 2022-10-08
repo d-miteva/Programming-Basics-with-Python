@@ -31,5 +31,3 @@ else:
         price = budget * 0.90
 
 print(f"{country} - {place} - {price:.2f}")
-
-

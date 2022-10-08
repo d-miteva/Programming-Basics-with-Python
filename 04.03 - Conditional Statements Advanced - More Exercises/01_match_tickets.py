@@ -11,7 +11,6 @@ if category == "VIP":
 elif category == "Normal":
     ticket_price = 249.99
 
-
 if people <= 4:
     transport_outcome = budget * 0.75
 elif 5 <= people <= 9:

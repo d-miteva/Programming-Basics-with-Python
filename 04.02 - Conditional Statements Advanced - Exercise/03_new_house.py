@@ -30,4 +30,3 @@ if budget >= expenses:
     print(f"Hey, you have a great garden with {count_flowers} {type_flower} and {diff:.2f} leva left.")
 else:
     print(f"Not enough money, you need {diff:.2f} leva more.")
-

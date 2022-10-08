@@ -11,7 +11,7 @@ if time_of_day == "Morning":
     elif 18 < degrees <= 24:
         outfit = "Shirt"
         shoes = "Moccasins"
-    elif degrees >=25:
+    elif degrees >= 25:
         outfit = "T-Shirt"
         shoes = "Sandals"
 elif time_of_day == "Afternoon":
